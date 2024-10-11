@@ -1,0 +1,3 @@
+gradlew.bat :dex:build
+dx --dex --output=classes.dex classes.jar
+jar cvf target.jar classes.dex
